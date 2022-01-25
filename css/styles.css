@@ -643,9 +643,9 @@ img {
   color: var(--main-text-color);
 }
 
-/* .footer-box-addr {
-  
-} */
+.footer-box-addr {
+  flex-grow: 1;
+}
 
 .footer-box-social {
   margin-left: 70px;
@@ -862,6 +862,7 @@ img {
 }
 
 .modal-form-text {
+  display: inline-flex;
   margin-bottom: 4px;
   font-size: 12px;
   line-height: 1.17;
